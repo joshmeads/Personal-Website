@@ -1,0 +1,78 @@
+/**
+*
+*	This file is soley for variables and compiling imports.
+*	Do not include any code other than variables. Compiles to filename.css
+*
+*	Project : 'Core' / 'Project Theia'
+*	Author  : Josh Meads
+*	Year    : 2014
+*	Version : v0.1.0
+*
+**/
+
+// Variables
+//--------------------------------
+	@import 'base/_colors.scss';			// Color Imports
+
+
+$pagewidth: 1024px;
+
+// Breakpoints
+//-----------
+$break-large: 1px;
+$break-medium: 1px; // Change this
+$break-tablet: 1px; // Change this
+
+// Colors
+//-----------
+$primary-color: $black;
+$secondary-color: $blue;
+$text-color: $flat-asphalt;
+$accent-color: $maroon;
+$error-color: $red;
+$success-color: $lime;
+$selection-color: $red;
+$link-color: $black;
+$bg-color: $white;
+
+
+
+// Vendor (Third Party - Webfonts/Normalize.css/Bourbon/etc.)
+//--------------------------------
+	@import 'vendor/bourbon/bourbon';		// Bourbon Mixin Library
+	@import 'vendor/_normalize.scss';		// normalize.css reset
+	@import 'vendor/_webfonts.scss';		// Webfont's go here (use @import)
+	//@import 'vendor/_animate.scss';			// Animate.css
+
+
+
+// Base (Colour Values/Mixins/Placeholders/Type)
+//--------------------------------
+
+	@import 'base/_typography.scss';		// Typography Styles and Sizes
+	@import 'base/_mixins.scss';			// Custom mixins
+	@import 'base/_placeholders.scss';		// Placeholder Styles
+	@import 'base/_base.scss';				// Variables and *, html rules
+	
+
+
+// Theme (Page/Section styles)
+//--------------------------------
+	@import 'theme/_header.scss';			// Header Styles
+	@import 'theme/_main.scss';				// Main Theme Styles
+	@import 'theme/_footer.scss';			// Footer Styles
+	@import 'theme/_skills.scss';			// Skills, Lab & Resume Sections Styles
+	@import 'theme/_portfolio.scss';		// Portfolio Styles
+	@import 'theme/_contact.scss';			// Contact Section Styles
+	@import 'theme/_shame.scss';			// Undefined Styles. Keep this empty.
+
+	@import 'theme/_breakpoints.scss';		// Responsive
+
+
+
+
+
+
+
+
+

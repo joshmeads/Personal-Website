@@ -1,0 +1,40 @@
+/**
+*
+* FOOTER
+* Sidewide footer styles
+*
+**/
+
+.footer {
+	position: relative;
+	background-color: $flat-belize;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.footer-nav {
+	text-align: center;
+	@include center;
+	color: $white;
+}
+
+.footer-nav a {
+	display: inline-block;
+	//color: $flat-midnight;
+	color: $white;
+	text-decoration: none;
+	border-bottom: 1px solid transparent;
+}
+
+.footer-nav a:hover {
+	border-bottom: 1px dotted $white;
+}
+
+.footer-bullet {
+	margin: 0 10px 0 10px
+}
+
+.footer-copyright {
+	padding-top: 20px;
+	color: $white;
+}

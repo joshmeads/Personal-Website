@@ -1,0 +1,45 @@
+{
+  "name": "jm-portfolio",
+  "root": "deploy",
+  "clean_urls": true,
+  "error_page": "error.html",
+  
+  "cache_control": {
+    "/img/**": 604800,
+    "/js/**": 604800,
+    "/webfonts/**": 604800,
+    "/css/**": 604800,
+  	"favicon.ico": 604800,
+  	"apple-touch-icon.png": 604800,
+    "/": false
+  },
+
+  "forms": {
+    "contact": {
+      "to": "joshmeads@me.com",
+      "from": "joshmeads@me.com",
+      "replyTo": "{{name}} <{{email}}>",
+      "subject": "Contact Received from {{name}}",
+      "html": "<b>Name:</b> {{name}}<br><b>Email:</b> {{email}}<br><b>Message:</b> {{message}}",
+      "success": "/success",
+      "failure": "/error"
+    }
+  },
+
+  "headers": {
+    "/img/**": {
+      "Last-Modified": "Mon, 19 Nov 2014 10:41:57 GMT"
+    },
+    "/webfonts/**": {
+      "Last-Modified": "Mon, 19 Nov 2014 10:41:57 GMT"
+    },
+    "/css/**": {
+      "Last-Modified": "Mon, 19 Nov 2014 10:41:57 GMT"
+    },
+    "/js/**": {
+      "content-type": "text/javascript",
+      "Last-Modified": "Mon, 19 Nov 2014 10:41:57 GMT"
+    }
+  }
+
+}

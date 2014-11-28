@@ -1,0 +1,32 @@
+/**
+*
+* Custom MIXINS
+* SASS Mixins
+*
+**/
+
+@mixin vertical-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+@mixin center {
+	margin: 0 auto;
+}
+
+
+@mixin link($linkborder) {
+	border-bottom: 1px $linkborder $raspberry;
+}
+
+@mixin fixed {
+	position: fixed;
+	-webkit-transform: translateZ(0);
+}
+
+@mixin force-hwa {
+	-webkit-transform: translateZ(0);
+}

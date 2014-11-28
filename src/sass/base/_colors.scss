@@ -1,0 +1,58 @@
+// Breakpoints
+$break-large: 1200px;
+$break-medium: 700px; // Change this
+$break-tablet: 700px; // Change this
+
+
+// Based on http://clrs.cc/
+$aqua:  #7FDBFF;
+$blue:  #0074D9;
+$navy:  #001F3F;
+$teal:  #39CCCC;
+$green: #2ECC40;
+$olive: #3D9970;
+$lime:  #01FF70;
+
+$yellow:  #FFDC00;
+$orange:  #FF851B;
+$red:     #FF4136;
+$magenta: #F012BE;
+$fuchsia: #F012BE;
+$purple:  #B10DC9;
+$maroon:  #85144B;
+
+$purewhite: #fff;
+$white:  #fafafa;
+$silver: #ddd;
+$gray:   #aaa;
+$black:  #111;
+$pureblack: #000;
+
+$raspberry: #ff3366;
+$oceanblue: #12afbb;
+$oceanblue-light: #d1e9eb;
+
+// Flat UI Colors - http://flatuicolors.com/
+$flat-turquoise: #1abc9c; // Turquoise
+$flat-greensea: #16a085; // Turquoise
+$flat-emerald: #2ecc71; // Green
+$flat-nephritis: #27ae60; // Green
+$flat-river: #3498db; // Blue
+$flat-belize: #2980b9; // Blue
+$flat-amethyst: #9b59b6; // Purple
+$flat-westeria: #8e44ad; // Purple
+$flat-asphalt: #34495e; // Dark Blue
+$flat-midnight: #2c3e50; // Dark Blue
+
+$flat-yellow: #f1c40f; // Yellow
+$flat-orange: #f39c12; // Orange
+$flat-carrot: #e67e22; // Orange
+$flat-pumpkin: #d35400; // Orange
+$flat-alizarin: #e74c3c; // Red
+$flat-pomegranate: #c0392b; // Red
+$flat-clouds: #ecf0f1; // Grey (light)
+$flat-silver: #bdc3c7; // Grey (light)
+$flat-concrete: #95a5a6; // Grey (mid)
+$flat-asbestos: #7f8c8d; // Grey (dark)
+
+.raspberry {color: $raspberry;}

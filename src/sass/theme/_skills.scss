@@ -1,0 +1,262 @@
+.skills {
+	background: $purewhite;
+	@extend %section;
+	border-top: solid 1px #eee;
+}
+
+.skills-content {
+	text-align: center;
+	@include center;
+}
+
+.skills-heading {
+	position: relative;
+	padding-bottom: 5px;
+	border-bottom: 3px solid #eee;
+	margin: 0 auto 25px auto;
+	width: 205px;
+	color: $flat-river;
+	font-weight: $light-fw;
+	@extend .h2style;
+}
+
+.skills-text {
+	max-width: 700px;
+	@include center;
+	@extend %main-text;
+}
+
+.skills-link {
+	font-weight: $light-fw;
+	text-decoration: none;
+	@include link(dotted);
+
+	&:hover {
+		@include link(solid);
+	}
+}
+
+.skill-bars-design {
+	max-width: 800px;
+	@include center;
+	padding-top: 80px;
+	@include clearfix;
+}
+
+.skill-bars-development {
+	max-width: 800px;
+	@include center;
+	padding-top: 50px;
+	@include clearfix;
+}
+
+.skill-bars-heading {
+	position: relative;
+	padding-bottom: 30px;
+	color: $flat-river;
+	font-weight: $light-fw;
+	@extend .h2style;
+}
+
+.skill-bar-name {
+	position: absolute;
+	top: -25px;
+	left: 0;
+	font-size: 1.125em;
+	@extend %main-text;
+}
+
+.skill-bar {
+	position: relative;
+	display: inline-block;
+	margin-top: 40px;
+	margin-bottom: 4px;
+	width: 370px;
+	border-bottom: 6px solid #eee;
+}
+
+.skill-bar-4 {
+	@extend .skill-bar;
+
+	&::after {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		border-bottom: 6px solid $flat-river;
+	}
+}
+
+.skill-bar-3 {
+	@extend .skill-bar;
+
+	&::after {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 75%;
+		border-bottom: 6px solid $flat-river;
+	}
+}
+
+.skill-bar-2 {
+	@extend .skill-bar;
+
+	&::after {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 50%;
+		border-bottom: 6px solid $flat-river;
+	}
+}
+
+.skill-bar-1 {
+	@extend .skill-bar;
+
+	&::after {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 25%;
+		border-bottom: 6px solid $flat-river;
+	}
+}
+
+// Lab Section
+
+.lab {
+	@extend %section;
+	background: #18282c;
+	color: $white;
+}
+
+.lab-content {
+	max-width: 800px;
+	@include center;
+	@include clearfix;
+}
+
+.lab-heading {
+	position: relative;
+	padding-bottom: 5px;
+	margin: 0 auto 25px auto;
+	font-weight: $light-fw;
+	@extend .h2style;
+
+	&::after {
+		content: '';
+		position: absolute;
+		bottom: -3px;
+		left: 0;
+		border-bottom: 3px solid #ddd;
+		width: 45px;
+	}
+}
+
+.lab-heading-small {
+	font-size: 0.62em;
+}
+
+.lab-text-container {
+	position: relative;
+	margin-top: 30px;
+	max-width: 370px;
+	min-height: 145px;
+	overflow: visible;
+}
+
+.lab-text-heading {
+	position: relative;
+	padding-bottom: 5px;
+	max-width: 320px;
+	font-weight: $light-fw;
+	@extend .h2style;
+}
+
+.lab-text {
+	max-width: 330px;
+	font-size: 1.125em;
+	line-height: 1.2em;
+	@extend %main-text;
+}
+
+.lab-gulp {
+	&::before {
+		content: '';
+		position: absolute;
+		margin: -10px 0 0 -45px;
+		background: url('../img/png-sprite.png') no-repeat -14px -2px;
+		width: 31px;
+		height: 69px;
+	}
+}
+
+.lab-angular {
+	&::before {
+		content: '';
+		position: absolute;
+		margin: -5px 0 0 -70px;
+		background: url('../img/png-sprite.png') no-repeat -61px -10px;
+		width: 56px;
+		height: 60px;
+	}
+}
+
+.lab-express {
+	&::before {
+		content: '';
+		position: absolute;
+		margin: -5px 0 0 -70px;
+		background: url('../img/png-sprite.png') no-repeat -3px -73px;
+		width: 55px;
+		height: 60px;
+	}
+}
+
+.lab-mean {
+	&::before {
+		content: '';
+		position: absolute;
+		margin: -5px 0 0 -70px;
+		background: url('../img/png-sprite.png') no-repeat -61px -73px;
+		width: 56px;
+		height: 60px;
+	}
+}
+
+
+// Resume Section
+
+.resume {
+	@extend %section;
+	background: $flat-river;
+	text-align: center;
+}
+
+.resume-link {
+	color: $white;
+	text-decoration: none;
+	@extend .h3style;
+	border-bottom: 1px dotted $white;
+
+	&:hover {
+		text-decoration: none;
+		border-bottom: 1px solid $white;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+

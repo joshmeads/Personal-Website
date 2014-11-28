@@ -1,0 +1,103 @@
+/**
+*
+* PORTFOLIO
+* Portfolio styles
+*
+**/
+
+
+.work {
+	background: $flat-asphalt;
+	@extend %section;
+}
+
+.work-content {
+	text-align: center;
+
+}
+
+.work-heading {
+	padding-bottom: 50px;
+	color: $white;
+	font-weight: $light-fw;
+	@extend .h3style
+}
+
+.work-statement {
+	max-width: 695px;
+	color: $flat-clouds;
+	font-size: 0.825em;
+	font-weight: $light-fw;
+	text-align: justify;
+}
+
+
+.portfolio-item-first {
+	width: 100%;
+	height: 300px;
+	margin-top: 10px;
+}
+.portfolio-item {
+	width: 100%;
+	height: 300px;
+	margin-top: 30px;
+}
+
+.portfolio-item-content {
+	position: relative;
+	top: 40px;
+	left: 100px;
+	width: 50%;
+	min-width: 320px;
+}
+
+.portfolio-panel-link {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 500;
+}
+
+.p-i-core {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	color: $white;
+	text-align: left;
+	text-transform: uppercase;
+	background: url('../img/jpg-sprite.jpg') no-repeat 0 -853px;
+
+}
+
+.p-i-heading {
+	font-weight: $medium-fw;
+	font-size: 2.5em;
+	@extend .h1style;
+
+}
+
+.p-i-subheading {
+	font-weight: $normal-fw;
+	font-size: 1.125em;
+	@extend .h3style;
+
+}
+
+.p-i-desc {
+	max-width: 350px;
+	padding-top: 15px;
+	line-height: 1.5em;
+	font-weight: $normal-fw;
+	font-size: 1.125em;
+	text-transform: none;
+	@extend .h3style;
+}
+
+.p-i-preview {
+	position: absolute;
+	top: 11px;
+	right: 40px;
+}
+

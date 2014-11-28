@@ -1,0 +1,313 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Joshua Meads - Front-end Developer &amp; UX Consultant</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" content="noindex"> <!-- REMOVE THIS BEFORE LIVE -->
+
+	<meta name="description" content="Joshua Meads - Front-End Developer and UX Designer in Vancouver, BC">
+	<meta name="author" content="Joshua Meads">
+	<link href="favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" /> <!--// Change favicon to optimal support //-->
+	<link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Raleway:300,400,500' rel='stylesheet' type='text/css'>
+	<![endif]-->
+
+	<link rel="stylesheet" type="text/css" href="css/core.min.css" media="all">
+	<script src="js/scripts.min.js" async></script>
+</head>
+
+<body>
+
+	<div id="header-overlay" class="header-overlay"></div>
+	<header id="header" class="header header-pre-img">
+
+		<nav class="header-nav">
+			<a href="#">Home</a>
+			<a href="#skills">Skills</a>
+			<a href="#contact">Contact</a>
+		</nav>
+
+		<div class="header-content wrapper">
+
+			<h1 class="header-h1">Joshua Meads</h1>
+			<h2 class="header-h2">
+				<ul>
+					<li class="header-h2-li">UI/UX Designer</li>
+					<li class="header-h2-li"> Front End Developer</li>
+					<li class="header-h2-li-last"> Web Consultant</li>	
+				</ul>
+			</h2>
+			<p class="header-bio">I design and develop websites for companies large and small all around the world.</p>
+			<button id="head-btn" class="header-contact-btn no-display">Get in touch!</button> <!-- readd no-display -->
+			<p class="header-location">Vancouver, BC</p>
+
+		</div>
+
+		<div id="head-form" class="header-contact-form no-display">
+			<div id="head-form-cont" class="header-contact-form-container">
+				<h3 class="header-contact-form-header">Send me a message!</h3>
+				<p class="header-contact-form-text">Hey! You can call me on <strong>778-891-5545</strong> or leave me a message below!
+				<br>
+				I'll do my best to respond within 24 hours.</p>
+				<button id="head-form-x" class="header-contact-form-close-btn">X</button>
+
+				<form method="POST" action="/__/forms/contact">
+					<div class="clear">
+						<p class="header-form-field-name">
+							<label class="header-form-label">Name</label>
+							<input class="header-form-input" type="text" placeholder="Name" name="name">
+						</p>
+						<p class="header-form-field-email">
+							<label class="header-form-label">E-mail</label>
+							<input class="header-form-input" type="email" placeholder="E-mail" name="email">
+						</p>
+					</div>
+					<p class="header-form-field-textarea">
+						<label class="header-form-label">Message</label>
+						<textarea class="header-form-textarea" placeholder="Your Message" name="message"></textarea>
+					</p>
+					<p class="header-form-field">
+						<input class="header-form-submit" type="submit" name="Send">
+					</p>
+				</form>
+
+				<div class="header-contact-form-close">
+					<a id="head-form-close">Close</a>
+				</div>
+
+			</div>
+		</div>
+
+	</header>
+
+	<section id="bio" class="bio">
+		<article class="bio-content wrapper">
+			<h3 class="bio-heading">A little bit about me...</h3>
+			<p class="bio-text">I’m a Vancouver based designer and developer from England.<br> I’ve focused on creating exceptional websites for 5 years, helping clients around the world succeed online. More recently I’ve expanded my abilities into SEO, web performance and consulting clients on web related problems.</p>
+
+			<div id="bio-learn-more">
+				<a id="bio-open" class="bio-learn-more animated">Want to know more?</a>
+				<div id="bio-expand" class="bio-text bio-expand no-display">
+					<p>
+					I started designing web interfaces in 2006-07, which as much as I enjoyed, it didn’t mean much unless I could actually build them and have people experience them. Thus in 2007 I decided to learn how to create and develop websites, eventually taking it into a freelance career to support my time through college and university.
+					<br><br>
+					As of 2014 I’ve focused on refining my current skill set and developing the skills required to build fast, aesthetic, creative web apps that put a strong focus on the user experience. Currently I’m working on developing two web apps (one SEO related product, another an e-commerce solution) based on a MEAN stack.
+					<br><br>
+					Why MEAN? Well clearly from the start I needed the power and flexibility of a MVC framework on both the front and back end (Angular and Express). Running on a node (express) server, it’s very fast compared to a LAMP solution and allows me to keep data as JSON throughout the entire stack. I’m also testing a similar solution, which would be an Angular base running on a static host, connecting to Firebase as a backend. Lot’s of testing ahead for me!
+					<br><br></p>
+					<a href="#bio" id="bio-close" class="bio-learn-more">Close</a>
+				</div>
+			</div>
+		</article>
+	</section>
+
+
+
+
+	<section id="skills" class="skills">
+		<article class="skills-content wrapper">
+			<h3 class="skills-heading">Workflow &amp; Skills</h3>
+			<p class="skills-text">
+				My current development workflow revolves around Grunt, Bower &amp; SCSS to create a highly efficient, automated, non-destructive workflow with fast deployment via divshot-cli.
+				You can see the gruntfile for this website on <a href="https://github.com/joshmeads/Personal-Website/blob/master/Gruntfile.js" target="_blank" class="skills-link">Github.</a>
+			</p>
+		</article>
+
+		<div class="skill-bars-design">
+			<span class="skill-bars-heading">Design Skills</span>
+			<ul>
+				<li class="skill-bar-4 left"> <span class="skill-bar-name">Adobe Photoshop</span> </li>
+				<li class="skill-bar-4 right"> <span class="skill-bar-name">Colour Theory</span> </li>
+				<li class="skill-bar-3 left"> <span class="skill-bar-name">UX Principles</span> </li>
+				<li class="skill-bar-3 right"> <span class="skill-bar-name">UX Testing</span> </li>
+			</ul>	
+		</div>
+
+		<div class="skill-bars-development">
+			<span class="skill-bars-heading">Front-End Development Skills</span>
+			<ul>
+				<li class="skill-bar-4 left"> <span class="skill-bar-name">HTML<span class="numberfix">5</span></span> </li>
+				<li class="skill-bar-4 right"> <span class="skill-bar-name">CSS<span class="numberfix">3</span></span> </li>
+				<li class="skill-bar-3 left"> <span class="skill-bar-name">JQuery</span> </li>
+				<li class="skill-bar-2 right"> <span class="skill-bar-name">JavaScript</span> </li>
+
+				<li class="skill-bar-4 left"> <span class="skill-bar-name">SASS/SCSS</span> </li>
+				<li class="skill-bar-3 right"> <span class="skill-bar-name">GruntJS</span> </li>
+				<li class="skill-bar-4 left"> <span class="skill-bar-name">Bower</span> </li>
+				<li class="skill-bar-4 right"> <span class="skill-bar-name">NPM</span> </li>
+
+				<li class="skill-bar-3 left"> <span class="skill-bar-name">Terminal</span> </li>
+				<li class="skill-bar-4 right"> <span class="skill-bar-name">Chrome Devtools</span> </li>
+				<li class="skill-bar-2 left"> <span class="skill-bar-name">GIT (BitBucket)</span> </li>
+				<li class="skill-bar-3 right"> <span class="skill-bar-name">Speed Optimisation</span> </li>
+			</ul>
+		</div>
+	</section>
+
+	<section id="lab" class="lab">
+		<div class="lab-content">
+			<h3 class="lab-heading">Lab <span class="lab-heading-small">// Things I'm currently testing &amp; learning</span></h3>
+
+			<div class="lab-text-container left lab-gulp">
+				<p class="lab-text-heading">GulpJS</p>
+				<p class="lab-text">I’m currently testing Gulp as a replacement to Grunt. My current grunt workflow is fantastic, however on larger projects it lacks the speed and async operations that gulp provides.</p>
+			</div>
+
+			<div class="lab-text-container right lab-angular">
+				<p class="lab-text-heading">AngularJS</p>
+				<p class="lab-text">Many of my project ideas are in need of the power and flexability of a MVC framework. I chose to first learn Angular based on the quality of available documentation and community support.</p>
+			</div>
+
+			<div class="lab-text-container left lab-express">
+				<p class="lab-text-heading">ExpressJS</p>
+				<p class="lab-text">Express is the web server component of the MEAN stack. Currently using it to setup routes to work in harmony with AngularJS.</p>
+			</div>
+
+			<div class="lab-text-container right lab-mean">
+				<p class="lab-text-heading">MEAN Stack</p>
+				<p class="lab-text">Currently testing this stack on several projects. So far I’m loving it for it’s speed. MongoDB is the next part I’ll be testing, now that I’ve got Angular and Express running great together.</p>
+			</div>
+		</div>
+	</section>
+
+	<section id="resume" class="resume">
+		<a href="/JoshMeads-2014Resume.pdf" target="_blank" alt="Josh Meads Resume" class="resume-link">R&eacute;sum&eacute; PDF</a>
+	</section>
+
+	<!--
+	<section id="work" class="work">
+		<div class="work-content wrapper">
+			<h3 class="work-heading">Portfolio of work</h3>
+			<p class="work-statement">Below is a small selection of my work.</p>
+
+
+			<div class="portfolio-item-first">
+				<div class="p-i-core">
+
+					<a class="portfolio-panel-link" href="#0"><span></span></a>
+
+					<div class="portfolio-item-content">
+						<p class="p-i-heading">Core</p>
+						<p class="p-i-subheading">Design // Front-End Development</p>
+						<p class="p-i-desc">Core is a platform to launch and manage SEO network sites in record time while leaving no footprints.</p>
+					</div>
+
+					<img src="img/core-preview.png" alt="Core" class="p-i-preview" />
+
+					
+
+				</div>
+			</div>
+
+
+			<div class="portfolio-item temp-bg"></div>
+			<div class="portfolio-item temp-bg"></div>
+
+		</div>
+		
+	</section>
+	-->
+
+	<section id="testimonials" class="testimonials">
+		<div class="testimonials-content wrapper">
+			<h3 class="testimonials-heading">Testimonials</h3>
+			
+			<div id="testimonials-slider-controls" class="testimonials-slider-controls no-display">
+				<div id="testimonials-control-left" class="testimonials-slider-controls-left">
+					<svg xmlns="http://www.w3.org/2000/svg" fill="#9aa4af" class="testimonials-slider-controls-svg" viewBox="0 0 50 50" preserveAspectRatio="xMinYMin meet">
+						<path d="M21.1 21.9L-.2 44l21.3 22.1 21.3 22.1 3.7-4.3 3.7-4.3-16.7-17.4C24 52.6 16.5 44.4 16.5 44c0-.4 7.5-8.7 16.7-18.2L49.8 8.3l-3.6-4.2-3.7-4.3-21.4 22.1z"/>
+					</svg>
+				</div>
+				<div id="testimonials-control-right" class="testimonials-slider-controls-right">
+					<svg xmlns="http://www.w3.org/2000/svg" fill="#9aa4af" class="testimonials-slider-controls-svg" viewBox="0 0 50 50" preserveAspectRatio="xMinYMin meet">
+						<path d="M3.8 4.2L.3 8.5l16.6 17.3C26 35.4 33.5 43.6 33.5 44c0 .4-7.5 8.7-16.7 18.2L.2 79.7l3.6 4.2 3.7 4.3 21.4-22.1L50.2 44 29 22C17.3 9.9 7.6 0 7.5 0c-.1 0-1.8 1.9-3.7 4.2z"/>
+					</svg>
+				</div>
+			</div>
+
+			<div id="testimonials-slider" class="testimonials-slider">
+
+
+				<div id="testimonials-slide" class="testimonials-slide testimonials-nojs">
+					<div class="testimonials-slide-img-cont client-img-1"></div>
+
+					<p class="testimonials-slide-content">
+					Josh is a true professional and a lifesaver for me! I had a terrible Wordpress site built by a total amateur with problems galore. Josh is a genius who quickly came in fixed all the issues and restored my sites’ ranking on Google as well! I really appreciate Josh's super calm demeanor and integrity. I highly recommend his services to anyone.
+						
+						<span class="testimonials-slide-name">Ryan H, LDT</span>
+					</p>
+				</div>
+
+				<div id="testimonials-slide" class="testimonials-slide testimonials-nojs">
+					<div class="testimonials-slide-img-cont client-img-2"></div>
+
+					<p class="testimonials-slide-content">
+					Josh has been an outstanding help. Being a SEO Firm we often outsource design and development work to him. He gets it done promptly and to a very high quality. Whenever I need a website made or consulting regarding websites I call Josh!
+						
+						<span class="testimonials-slide-name">Stephen G, SEO Firm</span>
+					</p>
+				</div>
+
+				<div id="testimonials-slide" class="testimonials-slide testimonials-nojs">
+					<div class="testimonials-slide-img-cont client-img-3"></div>
+
+					<p class="testimonials-slide-content">
+					Josh is very talented in web design and development, he really understands what clients need, and most importantly executes to perfection. It has been a pleasure working with him on our latest project.
+						
+						<span class="testimonials-slide-name">Chetan H, Marketing</span>
+					</p>
+				</div>
+
+			</div>
+
+
+		</div>
+	</section>
+
+	
+
+	<section id="contact" class="contact">
+		<div class="contact-contain">
+
+			<h3 class="contact-heading">Contact Me!</h3>
+			
+			<form method="POST" action="/__/forms/contact">
+				<div class="clear">
+					<p class="contact-form-field-name">
+						<label class="contact-form-label">Name</label>
+						<input class="contact-form-input" type="text" placeholder="Name" name="name">
+					</p>
+					<p class="contact-form-field-email">
+						<label class="contact-form-label">E-mail</label>
+						<input class="contact-form-input" type="email" placeholder="E-mail" name="email">
+					</p>
+				</div>
+				<p class="contact-form-field-textarea">
+					<label class="contact-form-label">Message</label>
+					<textarea class="contact-form-textarea" placeholder="Your Message" name="message"></textarea>
+				</p>
+				<p class="contact-form-field">
+					<input class="contact-form-submit" type="submit" name="Send">
+				</p>
+			</form>
+
+		</div>
+	</section>
+
+
+	<footer class="footer">
+		<div class="footer-nav wrapper">
+			<a href="https://www.linkedin.com/in/joshmeads">LinkedIn</a>
+			<span class="footer-bullet">&bull;</span>
+			<a href="mailto:joshmeads@me.com">joshmeads@me.com</a>
+			<p class="footer-copyright">&copy; Joshua Meads 2014</p>
+		</div>
+	</footer>
+
+</body>
+</html>
